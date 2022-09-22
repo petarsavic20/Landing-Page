@@ -1,1 +1,1 @@
-# Landing-Page
+This is my final css task on the odin project. After a lot of struggle I finally understood flexbox and I am hoping to crush this landingpage project. 
