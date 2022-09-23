@@ -1,26 +1,66 @@
 body {
     margin: 0;
-}
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding: 18px;
-    align-items: center;
-    background-color: #1f2937;
+
 }
 
 .logo {
+    font-size: 24px;
     color: white;
 }
 
-ul {
+ul.nav {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 18px;
 
 }
 
 a {
     color: white;
+
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between ;
+    padding-top: 80px;
+    width: 1140px;
+
+}
+
+.herotxt1, .herotxt2 {
+    color: white;
+}
+
+.herotxt1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.herotxt2 {
+    font-size: 18px;
+}
+
+img {
+    display: flex;
+    width: 500px;
+    margin-left: auto;
+    margin: 0;
 }
