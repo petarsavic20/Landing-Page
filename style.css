@@ -1,6 +1,6 @@
 body {
     margin: 0;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo {
@@ -63,4 +63,85 @@ img {
     width: 500px;
     margin-left: auto;
     margin: 0;
+}
+
+.boxh1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.boxone, .boxtwo, .boxthree, .boxfour {
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px black;
+border-radius: 15px;
+width: 150px;
+height: 150px;
+
+}
+
+.quotesection {
+    display: flex;
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+   display: flex;
+   font-size: 36px;
+   font-style: italic;
+   width: 700px;
+   overflow-wrap: break-word ;
+    
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.signup-box {
+    display: flex;
+    flex-basis: 800px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.section-small {
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.sign {
+display: lex;
+width: 80px;
+height: 30px;
+margin-right: 50px;
+border-radius: 5px;
+border: solid 1px white;
+background-color: #3882F6;
+justify-content: center;
+align-items: center;
+color: white;
+
 }
